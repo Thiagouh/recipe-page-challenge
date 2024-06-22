@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'Outfit';
+	src: url('../assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+	font-weight: 100 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'YoungSerif';
+	src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+	font-style: normal;
+}
+
+/* colors */
+
+.dark-raspberry {
+	color: hsl(332, 51%, 32%);
+}
+
+.rose-white {
+	background: hsl(330, 100%, 98%);
+}
+
+.eggshell {
+	background: hsl(30, 54%, 90%);
+}
+
+.light-grey {
+	color: hsl(30, 18%, 87%);
+}
+
+.wenge-brown {
+	color: hsl(30, 10%, 34%);
+}
+
+.dark-coachal {
+	color: hsl(24, 5%, 18%);
+}
+
+/* custom CSS rules */
+
+span {
+	font-weight: 600;
+}
+
+h2 {
+	color: hsl(14, 45%, 36%);
+	font-family: 'YoungSerif', 'sans-serif';
+	font-size: 1.5rem;
+    line-height: 2rem;
+	margin-top: 1.4rem;
+	margin-bottom: 1.4rem;
+}
+
+ul, ol {
+	padding-left: 2rem;
+}
+
+li {
+	margin-top: 0.30rem;
+	margin-bottom: 0.30rem;
+}
+
+hr {
+	width: 100%;
+	border: solid 1px hsl(30, 18%, 87%);
+	margin-top: 2rem;
+}
+
+.div-nutrition {
+	border-bottom: solid 1px hsl(30, 18%, 87%);
+}
+
+.last-div-nutrition:last-child {
+	border-bottom: none;
+}
